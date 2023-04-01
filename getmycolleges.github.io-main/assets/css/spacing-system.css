@@ -1,0 +1,50 @@
+@media(min-width:1600px){
+    .gmc-wrap{
+        /* for large screen devices */
+        padding-left: 340px;
+        padding-right: 340px;
+    }
+
+    .gmc-wrap-l{
+        padding-left: 340px !important;
+    }
+}
+
+@media(max-width:1600px){
+    .gmc-wrap{
+        /* for 1440px < screen devices */
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .gmc-wrap-md-l{
+        padding-left: 100px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media(max-width:768px){
+    .gmc-wrap{
+        /* for 768px < screen devices */
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .gmc-wrap-md-l{
+        padding-left: 40px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media(max-width:420px){
+    .gmc-wrap{
+        /* for 420px < screen devices */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gmc-wrap-md-l{
+        padding-left: 10px !important;
+        padding-right: 0px !important;
+    }
+}

@@ -1,0 +1,127 @@
+﻿body {
+background-color:#F8F8F8;
+}
+header {
+    background-image:url('../img/bg.jpg');
+    padding:10% 0% 0% 0%;
+}
+.container span{
+	margin-right:2%;
+}
+.container span{
+	font-weight:lighter;
+	font-size:120%;
+}
+.container img{
+	width:5%;
+	border-radius:5px;
+	margin:1.5em 0.7em 0 0;
+}
+.video{
+	opacity: 0.6;
+}
+.video:hover{
+	 opacity: 1;
+}
+.nav-button{
+    font-size: 16px;
+    color: var(--blue-dark);
+    border: 2px solid var(--blue-dark);
+    border-radius: 4px;
+    padding: 10px;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+    -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+}
+.down,.apply{
+	width:220px;
+	border:2px #252F66 solid;
+	padding :1% 0% 1% 0%;
+	border-radius:5px;
+}
+.apply{
+	background:#252F66;
+	color:#FFFFFF;
+	margin:2%;
+}
+.down{
+	background:#FFFFFF;
+	color:#252F66;
+	margin:2% 2% 2% 0%;
+}
+.container ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	color:#666D94;	
+}
+.active{	
+	 padding-bottom: 15px; 
+     border-bottom-style: solid; 
+     border-bottom-width: 2%; 
+     width: fit-content;
+     color:#252F66; 
+ } 	
+.container li{
+	display:inline-block;
+	
+}
+.sidebar-box {
+  position: relative;
+  overflow: hidden;
+}
+.sidebar-box p{
+	color:#797979;
+	font-weight:lighter;
+}
+.sidebar-box .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+  background-image: linear-gradient(to bottom, transparent, white);
+}
+.button{
+	color:#252F66;
+}
+h3,h6{
+	color:#252F66;
+}
+#row{
+	color:#5A69BC;
+}
+.table{
+	border-radius:10px;
+}
+.deg{
+	font-weight:lighter;
+	background-color:#F2F2F2;
+	color:#333333;
+	border-radius:10px;
+}
+.checked {
+  color: orange;
+}
+
+.footer h3{
+	color:#FFFFFF;
+}
+.card{
+	border:0;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+	
+	}
+@media (max-width: 768px){
+	.tabs li{
+	display:inline-block;
+}
+.button{
+	width:100%;
+}
+.sidebar{
+	display:none;
+}
+	}
